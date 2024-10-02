@@ -1,0 +1,14 @@
+@MyApi_HostAddress = http://localhost:5118
+
+GET {{MyApi_HostAddress}}/api/data
+Accept: application/json
+
+###
+
+POST {{MyApi_HostAddress}}/api/data
+content-type: application/json
+
+{
+    "width": 300,
+    "height": 400
+}
